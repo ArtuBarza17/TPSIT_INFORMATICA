@@ -48,3 +48,4 @@ class java
     System.out.println("Nella parola ci sono presenti "+nC+" consonanti");
     }
 }
+}
