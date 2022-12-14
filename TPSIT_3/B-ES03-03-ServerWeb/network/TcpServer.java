@@ -5,7 +5,7 @@
  * from folder network/..
  * javac network/TcpServer.java; java network.TcpServer 
  */
-package network;
+package a;
 
 import java.io.*;
 import java.net.ServerSocket;
@@ -45,7 +45,7 @@ public class TcpServer {
 				//clientMsg += "Connection: close\r\n";
 				//clientMsg += "Content-Type: text/plain\r\n";
 				clientMsg += "\r\n";
-				clientMsg += "Saluti dal web server Java";
+				clientMsg += "Saluti da Arturo Barzaghi";
 				outStream.write(clientMsg.getBytes());
 				outStream.flush();
 
